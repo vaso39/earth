@@ -1,0 +1,597 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  gap: 20px;
+}
+
+footer {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 300px;
+}
+
+.div1 {
+  width: 100%;
+  display: flex;
+  background-image: url(img/Rectangle\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.div2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.div3 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 2rem;
+}
+
+.div2 > div {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.background {
+  height: 1020px;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(55, 110, 64, 0) 0%, #071917 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10%;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.div1_1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.div1text {
+  width: 80%;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.text {
+  width: 80%;
+}
+
+.text1 {
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34.13px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.text2 > p {
+  font-family: Montserrat;
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 97.52px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.text3 {
+  width: 60%;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.img {
+  width: 90%;
+  max-width: 800px;
+}
+
+a {
+  color: white;
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20.72px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgba(136, 246, 133, 0.447);
+}
+
+.card {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.card > p {
+  width: 90%;
+  color: white;
+  font-family: Montserrat;
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 67.05px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.card1 {
+  background-image: url(img/Rectangle\ 2.png);
+}
+.card2 {
+  background-image: url(img/Rectangle\ 4.png);
+}
+.card3 {
+  background-image: url(img/Rectangle\ 5.png);
+}
+.card1,
+.card2,
+.card3 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.div4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div4_1 {
+  width: 90%;
+}
+
+.div4_1 > p {
+  color: white;
+  font-family: Montserrat;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 54.86px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.smallcards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.smallcards > div {
+  width: 90%;
+  max-width: 400px;
+  height: auto;
+  aspect-ratio: 2 / 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #145e2a;
+  border-radius: 20px;
+}
+
+.cardtext {
+  color: white;
+}
+
+.cardtext1 {
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34.13px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.cardtext2 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.button {
+  width: auto;
+  padding: 0.5rem 1rem;
+  border-radius: 1.5rem;
+  background-color: white;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  color: black;
+}
+
+.button:hover {
+  background-color: antiquewhite;
+}
+.test {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: 90%;
+}
+/*second page*/
+/* Общие стили для адаптивности */
+
+.divA {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav2_1 {
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.line {
+  width: 90%;
+}
+
+hr {
+  border: 1px solid #ffffff;
+}
+
+.button1 {
+  width: 113px;
+  height: 28px;
+  gap: 0px;
+  border-radius: 5px;
+  opacity: 0px;
+  background: #145e2a;
+  display: grid;
+  place-content: center;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18.29px;
+  text-align: left;
+}
+
+.cont1 {
+  width: 80%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cont1_1 {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu {
+  display: none;
+}
+.menu > img {
+  width: 30px;
+  height: 30px;
+}
+.test2 {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18.29px;
+  text-align: left;
+}
+
+.cont2 {
+  width: 95%;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.cont2text {
+  height: 80%;
+  width: 50%;
+  position: absolute;
+  background-color: rgb(20, 94, 42);
+  opacity: 75%;
+  border-radius: 30px;
+  right: 0;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.test3 {
+  width: 90%;
+  height: 90%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.minitext1 {
+  width: 100%;
+  font-family: Montserrat, sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 34.13px;
+  text-align: left;
+}
+
+.minitext2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34.13px;
+  text-align: left;
+  margin: 0;
+}
+
+.minitext3 {
+  width: 100%;
+  font-family: Montserrat, sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30.48px;
+  text-align: left;
+}
+
+.button2 {
+  width: 196.92px;
+  height: 34.92px;
+  gap: 0px;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  display: grid;
+  place-content: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29.26px;
+  text-align: left;
+}
+
+.Grid {
+  width: 95%;
+  display: grid;
+  grid-template-areas: "area1 area2 area3" "area4 area5 area6";
+  gap: 30px;
+}
+
+.car {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(20, 94, 42, 1);
+  color: white;
+  border-radius: 30px;
+}
+
+.grid1 {
+  grid-area: area1;
+}
+.grid2 {
+  grid-area: area2;
+}
+.grid3 {
+  grid-area: area3;
+}
+.grid4 {
+  grid-area: area4;
+}
+.grid5 {
+  grid-area: area5;
+}
+.grid6 {
+  grid-area: area6;
+}
+
+.button3 {
+  display: grid;
+  place-content: center;
+  color: black;
+  background-color: white;
+  width: 145px;
+  height: 44px;
+  gap: 0px;
+  border-radius: 24px;
+  box-shadow: 8px 8px 10px 0px rgba(0, 0, 0, 0.5);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.contcar {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contcar1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34.13px;
+  text-align: left;
+}
+
+.contcar2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.38px;
+  text-align: left;
+}
+
+.footer {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot1 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  text-align: center;
+}
+
+.foot2 {
+  display: flex;
+}
+
+.foot3 {
+  width: 100%;
+  color: rgba(255, 255, 255, 1);
+  justify-content: flex-start;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.38px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.foottext1 {
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34.13px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.foottext2 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.38px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+@media (min-width: 1200px) {
+  .Grid {
+    grid-template-areas: "area1 area2 area3" "area4 area5 area6";
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+  .divA {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .cont2text {
+    width: 70%;
+    left: 15%;
+  }
+  .Grid {
+    grid-template-areas: "area1 area2" "area3 area4" "area5 area6";
+  }
+}
+
+@media (max-width: 767px) {
+  .divA {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cont2text {
+    width: 90%;
+    overflow: auto;
+    margin-top: 20px;
+  }
+  .cont1_1 {
+    justify-content: flex-end;
+  }
+  .test2 {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .Grid {
+    grid-template-areas: "area1" "area2" "area3" "area4" "area5" "area6";
+  }
+}
